@@ -186,10 +186,10 @@ public class Errors02 {
        
         System.out.println(Errors02.relative_error(x, r));*/
        
-        /*Ex-10 abs n relative errors of Sum of aquareroots*/
+        /*Ex-10 abs n relative errors of Sum of aquareroots
         double s[]={3,5,7};
         System.out.println(Errors02.abssquarerootssum(s));
-        System.out.println(Errors02.relsquarerootssum(s));
+        System.out.println(Errors02.relsquarerootssum(s));*/
         
     }
     

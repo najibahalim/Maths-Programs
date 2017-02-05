@@ -23,6 +23,7 @@ public class BisectionMethod {
     
     static double find_root(double a,double b){
        // a=squeeze(a,b);
+       int c=1;
         double ansprev=0,ans;
         ans=(a+b)/2;
         if(f1(ans)>0)
@@ -31,7 +32,7 @@ public class BisectionMethod {
             a=ans;
         
         
-        while(ansprev!=ans){
+        while(ansprev!=ans && c<=30){
             ansprev=ans;
             ans=(a+b)/2;
             if(f1(ans)>0)
@@ -65,6 +66,6 @@ public class BisectionMethod {
             
         //System.out.println(x+" "+y);
         //System.out.println(find_root(1,0));
-        System.out.println(find_root(x,y));
+        System.out.println(find_root(2,3));
     }
 }

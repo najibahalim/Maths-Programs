@@ -1,2 +1,3 @@
-# Programs01
-Its a repository containing different types of programs..
+# Maths Programs
+Implementation of various concepts in Applied Mathematics
+
